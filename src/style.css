@@ -1,0 +1,14 @@
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label,
+div {
+  margin-bottom: 10px;
+}
+
+label:last-child {
+  margin-bottom: 0;
+}
