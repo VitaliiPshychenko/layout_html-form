@@ -1,14 +1,13 @@
-fieldset {
+.form-field {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
 
-label,
-div {
+.form-item {
   margin-bottom: 10px;
 }
 
-label:last-child {
+.form-item:last-child {
   margin-bottom: 0;
 }
